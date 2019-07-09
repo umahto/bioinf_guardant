@@ -1,9 +1,9 @@
 Evaluation of implementation
 
 Key Strengths
-1.
-2.
+1. Doesn't use an external or 3rd party library to parse VCF files.
+2. Time and space complexity are linear.
 
 Key Weaknesses
-1.
-2.
+1. Needs to be updated on its own to adhere to VCF file specifications since it is not using a 3rd party.
+2. Doesn't consider quality of input sequences for the VCF file.
