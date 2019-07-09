@@ -7,4 +7,6 @@ In terms of error handling, I considered the following possibilities:
 4. Empty input list
 
 Basic use cases include the following:
-1. 
+1. Parse through VCF files.
+2. Get all variants from the input sequences along with their chromosome-positions.
+3. Can calculate how many different variants for each chromosome-position present in the input files. Can also split across genomic regions. 
