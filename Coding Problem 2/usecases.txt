@@ -1,10 +1,12 @@
 Possible Use Cases to Test
 
 In terms of error handling, I considered the following possibilities:
-1. Invalid options (greater than 10 input integer)
+1. Invalid options (n > 10)
 2. Incorrect/corrupted/inaccessible input file
-3. Invalid characters (non-letters) for the symbol
+3. Invalid characters (non-letters) for the symbols
 4. Empty input list
 
 Biologically relevant use cases include the following:
-1. 
+1. All possible kmer combinations from a set of symbols - used in other bioinformatics algorithms (HMM)
+2. With modification, can be used to get all possible nucleotide sequences of length n.
+3. With modification, can be used to get all possible protein sequences of length n.
