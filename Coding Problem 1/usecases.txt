@@ -1,0 +1,14 @@
+Possible Use Cases to Test
+
+In terms of error handling, I considered the following possibilities:
+1. Invalid options
+2. Incorrect/corrupted/inaccessible input file
+3. Invalid characters (non-letters)
+4. Empty input list
+
+Biologically relevant use cases include the following:
+1. Calculating the frequency of GC content which can be used to find replication origins.
+2. Finding the longest multiple subsequence(s)
+3. Finding the most frequent k-mer(s) in a given DNA/RNA string
+4. With modification, can be use to find the most frequent words with mismatches and reverse complements from input string and similarly could be used as a starting point to find motifs.
+5. Can be used in genome assembly and string reconstruction. 

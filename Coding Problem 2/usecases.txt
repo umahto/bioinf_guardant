@@ -1,0 +1,10 @@
+Possible Use Cases to Test
+
+In terms of error handling, I considered the following possibilities:
+1. Invalid options (greater than 10 input integer)
+2. Incorrect/corrupted/inaccessible input file
+3. Invalid characters (non-letters) for the symbol
+4. Empty input list
+
+Biologically relevant use cases include the following:
+1. 
