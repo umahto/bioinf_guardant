@@ -91,12 +91,16 @@ def getValidFile():
                 if (checkSymbols(symbols)):
                     n = str(f.readline())
                     n = n.strip('\n')
-                    n = int(n)
-                    if n > 0 and n <= 10:
-                        calculateCombinations(symbols, n)
-                        return True
-                    else:
-                        print('The input file has an invalid length n value.')
+                    try:
+                        n = int(n)      
+                        if n > 0 and n <= 10:
+                            calculateCombinations(symbols, n)
+                            return True
+                        else:
+                            print('Input file has an invalid length n value.')
+                            return False
+                    except ValueError:
+                        print('Input file format for n is incorrect.')
                         return False
                 else:
                     return False
