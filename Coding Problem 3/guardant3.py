@@ -27,6 +27,9 @@ def checkVCFfile(filename):
         f.close()
         if (re.match("##fileformat=VCFv4.2",fileformat)):
             return True
+        else:
+            print('Please enter a VCFv4.2 file.')
+            return False
     else:
         print('This is not a valid input file, you must enter a .vcf file that '
               'is as per VCF v4.2 specification. Returning to main menu.\n')
