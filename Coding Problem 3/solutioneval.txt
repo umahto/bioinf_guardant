@@ -1,9 +1,10 @@
 Evaluation of implementation
 
 Key Strengths
-1. Doesn't use an external or 3rd party library to parse VCF files.
+1. Doesn't use an external or 3rd party library to parse VCF files so there is no need for additional installation of any packages or libraries (considered using PyVCF).
 2. Time and space complexity are linear.
 
 Key Weaknesses
 1. Needs to be updated on its own to adhere to VCF file specifications since it is not using a 3rd party.
 2. Doesn't consider quality of input sequences for the VCF file.
+3. Only checks the file extension and file format matches .vcf and VCFv4.2 - doesn't actually check if the input vcf file is corrupted.
